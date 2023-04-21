@@ -5,7 +5,20 @@
 
 .head ul {
     display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 50px;
 }
+
+.head-content {
+    display: flex;
+}
+
+.head-content img {
+    margin-left: auto;
+}
+
+
 
 /* general */
 
