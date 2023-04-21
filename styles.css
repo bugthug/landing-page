@@ -22,7 +22,12 @@ button {
     border-style: solid;
     border-width: thick;
     border-radius: 10px;
-
     height: 150px;
     outline-offset: 4px;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
