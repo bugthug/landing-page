@@ -74,8 +74,26 @@
 }
 
 /* fourth section */
+.call-to-action {
+    display: flex;
+    border-radius: 5px;
+}
+
+.cta-button {
+    margin-left: auto;
+    margin-right: 100px;
+    align-self: center;
+}
 
 
+.call-to-action {
+    padding: 30px;
+    margin: 100px;
+}
+
+.message-bubble > .right-side {
+    margin-left: 100px;
+}
 
 /* general */
 
@@ -118,6 +136,16 @@
 
 
 /* fourth section */
+.call-to-action {
+    background-color: #3882f6;
+    color:white;
+}
+
+
+.cta-button {
+    border: 2px solid white;
+}
+
 
 /* misc. styling */
 * {
