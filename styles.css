@@ -1,12 +1,25 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
 .head {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: -10px -10px 0 -10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
     background-color: #1F2937;
 }
 
 .head > .menu{
     display: flex;
     margin-bottom: 60px;
+}
+
+.menu > img {
+    margin-top: 10px;
+    width: 50px;
 }
 
 .head ul {
@@ -21,6 +34,8 @@
 }
 
 .head-content img {
+    width: 500px;
+    height: 250px;
     margin-left: auto;
     flex:  1 0 auto;
     border-radius: 5px;
@@ -28,6 +43,9 @@
 
 
 /* general */
+ 
+/* first section*/
+
 
 .hero-main-text {
     font-size: 48px;
@@ -45,6 +63,7 @@
 }
 
 a {
+    color: grey;
     text-decoration: none;
 }
 
