@@ -1,26 +1,44 @@
+.head {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1F2937;
+}
+
 .head > .menu{
     display: flex;
-
+    margin-bottom: 60px;
 }
 
 .head ul {
     display: flex;
     gap: 10px;
     margin-left: auto;
-    margin-right: 50px;
 }
 
 .head-content {
     display: flex;
+    gap: 100px;
 }
 
 .head-content img {
     margin-left: auto;
+    flex:  1 0 auto;
+    border-radius: 5px;
 }
 
 
-
 /* general */
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.head-content > .left-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 * {
     font-family: "Roboto",sans-serif;
