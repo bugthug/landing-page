@@ -73,6 +73,12 @@
     text-align: end;
 }
 
+.testimonial > h3,
+.testimonial > p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 /* fourth section */
 .call-to-action {
     display: flex;
