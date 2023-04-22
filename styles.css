@@ -95,6 +95,12 @@
     margin-left: 100px;
 }
 
+.footer {
+    margin: 0 -10px 0 -10px;
+    text-align: center;
+    padding: 30px;
+}
+
 /* general */
 
 /* first section*/
@@ -146,6 +152,12 @@
     border: 2px solid white;
 }
 
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
 
 /* misc. styling */
 * {
