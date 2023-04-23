@@ -1,6 +1,7 @@
 /* first section */
 
 .head {
+    box-sizing: border-box;
     margin: -10px -10px 0 -10px;
     padding-left: 200px;
     padding-right: 200px;
@@ -30,10 +31,8 @@
 }
 
 .head-content img {
-    width: 500px;
-    height: 250px;
     margin-left: auto;
-    flex:  1 0 auto;
+    flex:  1 0 0;
     border-radius: 5px;
 }
 
@@ -64,6 +63,7 @@
 /* third section */
 
 .testimonial {
+    box-sizing: border-box;
     margin: 0 -10px;
     padding: 100px;
 }
@@ -171,10 +171,12 @@
 }
 
 body {
+    overflow-x: hidden;
+    margin: 0px;
     display: flex;
     height: 100vh;
     flex-direction: column;
-}
+} 
 
 a {
     color: black;
@@ -203,10 +205,4 @@ button {
     border-radius: 10px;
     height: 150px;
     outline-offset: 4px;  
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
